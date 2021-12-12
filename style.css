@@ -24,11 +24,10 @@ font-size:5vw;
 
 
 #menu{
-height: 20%;
+height: 30%;
 width: 100%;
 background-color: rgb(141, 0, 0);
 float: left;
-font-size:2vw;
 text-align: center;
 }
 button{
@@ -39,11 +38,40 @@ button{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 2vw;
+    font-size: 2.5vw;
     cursor: pointer;
     transition-duration:0.2s;
+    margin-left: 0.25vw;
+    margin-right: 0.25vw;
 }
 button:hover{
-    background-color: rgb(187, 0, 0);
+    background-color: rgb(216, 0, 0);
     transition-duration:0.2s;
+}
+p.info{
+
+    font-size: 3vw;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+p.tekst{
+    font-size: 1.5vw;
+    color:rgb(163, 163, 163);
+
+
+}
+#info{
+    background-color: rgb(66, 66, 66);
+    height: 20vw;
+    width: 20vw;
+    float: left;
+    
+
+}
+#gildia{
+    background-color: rgb(66, 66, 66);
+    height: 20vw;
+    width: 20vw;
+    float: left;
+
 }
